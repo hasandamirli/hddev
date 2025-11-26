@@ -219,14 +219,14 @@ export default function RootLayout({ children }: RootLayoutProps) {
     <html lang="en" suppressHydrationWarning>
       <head>
         <!-- Google tag (gtag.js) -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=G-R02T4T1JHB"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
+        <script async src="https://www.googletagmanager.com/gtag/js?id=G-R02T4T1JHB"></script>
+        <script>
+          window.dataLayer = window.dataLayer || [];
+          function gtag(){dataLayer.push(arguments);}
+          gtag('js', new Date());
 
-  gtag('config', 'G-R02T4T1JHB');
-</script>
+          gtag('config', 'G-R02T4T1JHB');
+        </script>
         <link rel="canonical" href="https://www.easyui.pro/" />
         {siteConfig.mainNav.map((item) => (
           <link key={item.href} rel="prerender" href={item.href} />
